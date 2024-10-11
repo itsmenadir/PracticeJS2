@@ -17,7 +17,7 @@ function displayCurrentDayAndTime() {
     
     
     if (hours === 0) {
-        hours = 12;  // Полночь
+        hours = 12;  
     } else if (hours === 12) {
         period = "PM"; 
     } else if (hours > 12) {
